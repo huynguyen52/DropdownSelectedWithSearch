@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown selected with search box</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="select-box">
+        <ul class="options-container">
+          <li class="option">
+            <input
+              type="radio"
+              class="radio"
+              id="automobiles"
+              name="category"
+            />
+            <label for="automobiles">Automobiles</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="film" name="category" />
+            <label for="film">Film & Animation</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="science" name="category" />
+            <label for="science">Science & Technology</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="art" name="category" />
+            <label for="art">Art</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="music" name="category" />
+            <label for="music">Music</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="travel" name="category" />
+            <label for="travel">Travel & Events</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="sport" name="category" />
+            <label for="sport">Sports</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="news" name="category" />
+            <label for="news">News & Politics</label>
+          </li>
+          <li class="option">
+            <input type="radio" class="radio" id="tutorials" name="category" />
+            <label for="tutorials">Tutorials</label>
+          </li>
+        </ul>
+
+        <div class="selected">Select Video Category</div>
+
+        <div class="search-box">
+          <input type="text" placeholder="Start typing..." />
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
